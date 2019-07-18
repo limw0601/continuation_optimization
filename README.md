@@ -11,4 +11,5 @@ Read More: https://epubs.siam.org/doi/abs/10.1137/17M1143563
 
 ## Reference
 [1] Kernévez, J. P., & Doedel, E. J. (1987). Optimization in bifurcation problems using a continuation method. In Bifurcation: Analysis, Algorithms, Applications (pp. 153-160). Birkhäuser Basel.
+
 [2] Li, M., & Dankowicz, H. (2018). Staged Construction of Adjoints for Constrained Optimization of Integro-Differential Boundary-Value Problems. SIAM Journal on Applied Dynamical Systems, 17(2), 1117-1151.
