@@ -1,0 +1,2 @@
+# continuation_optimization
+Successive continuation based optimization
