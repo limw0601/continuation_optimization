@@ -358,3 +358,86 @@
   360  00:39:44   1.1093e+02     37          3.0642e-02   3.8144e+00      0.0000e+00      0.0000e+00   1.0489e+00  -8.3619e-01  -1.7132e-01  -2.5564e-01   4.3321e-01  -2.4023e+00  -2.9491e-01  -2.2586e+00   2.0424e-01  -5.7239e-01   7.6446e-01   6.3260e-01  -8.4819e-02   8.0358e-01  -1.7114e-01   8.8164e-02   2.7577e-02  -2.4415e-01   7.2366e-02  -1.7702e-01  -3.7262e-02   4.5370e-04   5.2070e-03   7.4784e-02  -3.2844e-02   5.2801e-02  -4.8559e-02   2.6306e-03  -1.9239e-02  -4.1796e-02   2.2292e-02  -2.4149e-02  -8.0512e-03   8.3926e-01
   370  00:40:45   1.1205e+02     38          2.6573e-03   3.8111e+00      0.0000e+00      0.0000e+00   1.1214e+00  -6.5436e-01  -1.9321e-01  -2.2603e-01   4.7606e-01  -2.4531e+00  -3.3668e-01  -2.1153e+00   3.5898e-01  -5.1936e-01   8.0831e-01   6.0075e-01  -5.4821e-02   7.9510e-01  -1.2524e-01   9.3501e-02   6.4678e-03  -2.4787e-01   6.6203e-02  -1.8378e-01   2.4115e-02  -2.1904e-03   1.2523e-02   7.6601e-02  -3.1633e-02   5.5006e-02  -1.9478e-02   5.1293e-03  -2.5031e-02  -4.1498e-02   2.1631e-02  -2.4053e-02   1.7360e-02   1.0306e+00
   371  00:41:03   1.1435e+02     39  opt     0.0000e+00   3.8111e+00      0.0000e+00      0.0000e+00   1.1269e+00  -6.3714e-01  -1.9494e-01  -2.2335e-01   4.7941e-01  -2.4565e+00  -3.3967e-01  -2.1034e+00   3.7173e-01  -5.1496e-01   8.1149e-01   5.9779e-01  -5.2372e-02   7.9423e-01  -1.2048e-01   9.3816e-02   4.7631e-03  -2.4809e-01   6.5683e-02  -1.8427e-01   2.9757e-02  -2.3606e-03   1.3120e-02   7.6728e-02  -3.1529e-02   5.5167e-02  -1.6632e-02   5.3065e-03  -2.5507e-02  -4.1457e-02   2.1576e-02  -2.4030e-02   1.9705e-02   1.0472e+00
+
+    STEP   DAMPING               NORMS              COMPUTATION TIMES
+  IT SIT     GAMMA     ||d||     ||f||     ||U||   F(x)  DF(x)  SOLVE
+   0                          1.20e-05  1.19e+01    0.0    0.0    0.0
+   1   1  1.00e+00  3.73e-06  7.95e-14  1.19e+01    0.0    0.0    0.0
+   2   1  1.00e+00  1.07e-12  1.89e-14  1.19e+01    0.0    0.0    0.0
+
+ STEP      TIME        ||U||  LABEL  TYPE           T_1
+    0  00:00:00   1.1861e+01      1  EP      3.0885e+00
+   10  00:00:00   2.1993e+01      2          2.9486e+00
+   20  00:00:01   3.5023e+01      3          2.5024e+00
+   30  00:00:03   5.0575e+01      4          2.0066e+00
+   31  00:00:03   5.7266e+01      5  T2      2.0000e+00
+
+ STEP      TIME        ||U||  LABEL  TYPE           T_1
+    0  00:00:03   1.1861e+01      6  EP      3.0885e+00
+   10  00:00:04   8.9014e+00      7  FP      3.1026e+00
+   10  00:00:04   8.9014e+00      8  BP      3.1026e+00
+   10  00:00:04   8.9039e+00      9          3.1026e+00
+   20  00:00:05   1.3451e+01     10          3.0731e+00
+   30  00:00:06   2.6065e+01     11          2.7514e+00
+   40  00:00:07   3.8514e+01     12          2.2403e+00
+   46  00:00:07   5.2265e+01     13  T2      2.0000e+00
+
+    STEP   DAMPING               NORMS              COMPUTATION TIMES
+  IT SIT     GAMMA     ||d||     ||f||     ||U||   F(x)  DF(x)  SOLVE
+   0                          8.31e-03  1.02e+02    0.0    0.0    0.0
+   1   1  1.00e+00  1.47e-02  3.35e-07  1.02e+02    0.0    0.1    0.0
+   2   1  1.00e+00  1.37e-05  6.13e-13  1.02e+02    0.0    0.1    0.1
+   3   1  1.00e+00  2.71e-12  3.82e-14  1.02e+02    0.0    0.1    0.1
+
+ STEP      TIME        ||U||  LABEL  TYPE           T_2           p1          p11          p21           p2          p12          p22
+    0  00:00:01   1.0222e+02      1  EP      2.0000e+00  -2.0189e-14   3.4752e-14   6.0694e-15  -1.0542e-13  -1.8366e-14   6.0975e-14
+   10  00:00:05   9.4878e+01      2          2.2763e+00   2.9944e-01   6.4419e-03   1.6320e-01  -2.8843e-01   2.6233e-01  -7.2734e-02
+   20  00:00:10   8.5014e+01      3          2.7726e+00   1.0527e+00   2.6498e-01   3.5705e-01  -3.3890e-01   6.6666e-01  -6.1491e-01
+   29  00:00:14   7.8754e+01      4  T3      3.0000e+00   1.4648e+00   1.0630e+00   2.5372e-01   1.4441e-01   7.5918e-01  -1.5596e+00
+   30  00:00:15   7.7465e+01      5          3.0375e+00   1.4662e+00   1.4361e+00   1.5221e-01   3.3372e-01   7.9498e-01  -1.9186e+00
+   40  00:00:19   7.3726e+01      6          3.1023e+00   7.3072e-01   2.5190e+00  -8.0199e-01   4.5678e-01   9.1364e-01  -3.3343e+00
+   42  00:00:21   7.3637e+01      7  FP      3.1026e+00   6.8810e-01   2.5185e+00  -9.1537e-01   4.0872e-01   9.2530e-01  -3.4138e+00
+   42  00:00:22   7.3637e+01      8  BP      3.1026e+00   6.8810e-01   2.5185e+00  -9.1537e-01   4.0872e-01   9.2530e-01  -3.4139e+00
+   50  00:00:24   7.3950e+01      9          3.0932e+00   6.4519e-01   2.3393e+00  -1.6154e+00   3.0295e-02   1.0735e+00  -3.8201e+00
+   57  00:00:28   7.6251e+01     10  T3      3.0000e+00   9.8747e-01   1.4642e+00  -2.6674e+00  -9.4632e-01   1.3076e+00  -4.6117e+00
+   60  00:00:29   7.8015e+01     11          2.8979e+00   1.1518e+00   9.3806e-01  -2.8313e+00  -1.4055e+00   1.1737e+00  -5.0293e+00
+   70  00:00:32   8.1655e+01     12          2.5035e+00   1.3844e+00  -8.1745e-02  -2.1898e+00  -1.9192e+00  -1.8681e-02  -6.0404e+00
+   80  00:00:37   9.1719e+01     13          2.0713e+00   1.4993e+00  -1.2884e-01  -3.8847e-01  -4.8162e-01  -1.7079e+00  -6.5365e+00
+   82  00:00:39   9.8118e+01     14  EP      2.0000e+00   1.5009e+00   5.0663e-11   1.5876e-10   1.7641e-11  -1.9144e+00  -6.4916e+00
+
+    STEP   DAMPING               NORMS              COMPUTATION TIMES
+  IT SIT     GAMMA     ||d||     ||f||     ||U||   F(x)  DF(x)  SOLVE
+   0                          1.22e-13  7.65e+01    0.0    0.0    0.0
+
+ STEP      TIME        ||U||  LABEL  TYPE           obj        d.obj d.halo1.coll.T0 d.halo2.coll.T0        d.T_1        d.T_2         x0_1         x0_2           p1          p11          p21           p2          p12        d.p22         d.p3         d.p4         d.p5         d.p6         d.p7         d.p8         d.p9        d.p10        d.p13        d.p14        d.p15        d.p16        d.p17        d.p18        d.p19        d.p20        d.p23        d.p24        d.p25        d.p26        d.p27        d.p28        d.p29        d.p30
+    0  00:00:10   7.6506e+01      1  EP      8.3237e+00   0.0000e+00      0.0000e+00      0.0000e+00   0.0000e+00   0.0000e+00   0.0000e+00   0.0000e+00   9.8747e-01   1.4642e+00  -2.6674e+00  -9.4632e-01   1.3076e+00   0.0000e+00   0.0000e+00   0.0000e+00   0.0000e+00   0.0000e+00   0.0000e+00   0.0000e+00   0.0000e+00   0.0000e+00   0.0000e+00   0.0000e+00   0.0000e+00   0.0000e+00   0.0000e+00   0.0000e+00   0.0000e+00   0.0000e+00   0.0000e+00   0.0000e+00   0.0000e+00   0.0000e+00   0.0000e+00   0.0000e+00   0.0000e+00   0.0000e+00
+{Operation terminated by user during <a href="matlab:matlab.internal.language.introspective.errorDocCallback('adjoint_add>adfunc_DU', 'C:\Users\limw0\Documents\UIUC\coco_2018June\coco\core\toolbox\private\adjoint_add.m', 229)" style="font-weight:bold">adjoint_add>adfunc_DU</a> (<a href="matlab: opentoline('C:\Users\limw0\Documents\UIUC\coco_2018June\coco\core\toolbox\private\adjoint_add.m',229,0)">line 229</a>)
+
+
+In <a href="matlab:matlab.internal.language.introspective.errorDocCallback('adjoint_add>adeqs', 'C:\Users\limw0\Documents\UIUC\coco_2018June\coco\core\toolbox\private\adjoint_add.m', 127)" style="font-weight:bold">adjoint_add>adeqs</a> (<a href="matlab: opentoline('C:\Users\limw0\Documents\UIUC\coco_2018June\coco\core\toolbox\private\adjoint_add.m',127,0)">line 127</a>)
+  [pr, dC] = adfunc_DU(prob, pr, x);
+
+In <a href="matlab:matlab.internal.language.introspective.errorDocCallback('efunc_FDF', 'C:\Users\limw0\Documents\UIUC\coco_2018June\coco\core\toolbox\private\efunc_FDF.m', 77)" style="font-weight:bold">efunc_FDF</a> (<a href="matlab: opentoline('C:\Users\limw0\Documents\UIUC\coco_2018June\coco\core\toolbox\private\efunc_FDF.m',77,0)">line 77</a>)
+      [data F DFDX] = func.F(opts, data, x(x_idx));
+
+In <a href="matlab:matlab.internal.language.introspective.errorDocCallback('corr_nwtn>step', 'C:\Users\limw0\Documents\UIUC\coco_2018June\coco\covering\toolbox\corr_nwtn.m', 122)" style="font-weight:bold">corr_nwtn>step</a> (<a href="matlab: opentoline('C:\Users\limw0\Documents\UIUC\coco_2018June\coco\covering\toolbox\corr_nwtn.m',122,0)">line 122</a>)
+	[prob chart corr.f corr.J] = corr.FDF(prob, chart, corr.x);
+
+In <a href="matlab:matlab.internal.language.introspective.errorDocCallback('state_co_correct', 'C:\Users\limw0\Documents\UIUC\coco_2018June\coco\covering\toolbox\private\state_co_correct.m', 7)" style="font-weight:bold">state_co_correct</a> (<a href="matlab: opentoline('C:\Users\limw0\Documents\UIUC\coco_2018June\coco\covering\toolbox\private\state_co_correct.m',7,0)">line 7</a>)
+  [opts chart accept x] = opts.corr.step(opts, chart);
+
+In <a href="matlab:matlab.internal.language.introspective.errorDocCallback('covering_create>covering_step', 'C:\Users\limw0\Documents\UIUC\coco_2018June\coco\covering\toolbox\covering_create.m', 189)" style="font-weight:bold">covering_create>covering_step</a> (<a href="matlab: opentoline('C:\Users\limw0\Documents\UIUC\coco_2018June\coco\covering\toolbox\covering_create.m',189,0)">line 189</a>)
+opts  = fsm.(state).func (opts);
+
+In <a href="matlab:matlab.internal.language.introspective.errorDocCallback('covering_create>covering_run', 'C:\Users\limw0\Documents\UIUC\coco_2018June\coco\covering\toolbox\covering_create.m', 177)" style="font-weight:bold">covering_create>covering_run</a> (<a href="matlab: opentoline('C:\Users\limw0\Documents\UIUC\coco_2018June\coco\covering\toolbox\covering_create.m',177,0)">line 177</a>)
+	opts = covering_step(opts);
+
+In <a href="matlab:matlab.internal.language.introspective.errorDocCallback('coco', 'C:\Users\limw0\Documents\UIUC\coco_2018June\coco\core\toolbox\coco.m', 208)" style="font-weight:bold">coco</a> (<a href="matlab: opentoline('C:\Users\limw0\Documents\UIUC\coco_2018June\coco\core\toolbox\coco.m',208,0)">line 208</a>)
+  prob = prob.cont.run(prob);
+
+In <a href="matlab:matlab.internal.language.introspective.errorDocCallback('demo_auto_het_instances_5p', 'C:\Users\limw0\Documents\continuation_optimization_demos\trunk\SIADS_staged_construction\4.2.3\orbit_transfer_new_path\demo_auto_het_instances_5p.m', 215)" style="font-weight:bold">demo_auto_het_instances_5p</a> (<a href="matlab: opentoline('C:\Users\limw0\Documents\continuation_optimization_demos\trunk\SIADS_staged_construction\4.2.3\orbit_transfer_new_path\demo_auto_het_instances_5p.m',215,0)">line 215</a>)
+coco(prob1, 'optcont1', [], 1, cont_args, [5.5,9.7]); % [1.7, 2.0] [5,8]
+} 
+clc
+clear
+demo_auto_het_instances
